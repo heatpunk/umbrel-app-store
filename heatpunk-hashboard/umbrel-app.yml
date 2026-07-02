@@ -2,7 +2,7 @@ manifestVersion: 1
 id: heatpunk-hashboard
 category: bitcoin
 name: Hashboard
-version: "0.5.1"
+version: "0.5.2"
 tagline: Run your ASIC miner as a space heater
 description: >-
   Hashboard turns a Bitcoin ASIC miner into an ordinary household appliance:
@@ -27,7 +27,6 @@ repo: https://github.com/heatpunk/hashboard
 support: https://github.com/heatpunk/hashboard/issues
 port: 3847
 icon: https://raw.githubusercontent.com/heatpunk/umbrel-app-store/main/heatpunk-hashboard/icon.png
-icon: https://raw.githubusercontent.com/heatpunk/umbrel-app-store/main/heatpunk-hashboard/icon.png
 gallery: []
 path: ""
 defaultUsername: ""
@@ -35,6 +34,4 @@ defaultPassword: ""
 submitter: heatpunk
 submission: https://github.com/getumbrel/umbrel-apps
 releaseNotes: >-
-  The real Hashboard icon now shows everywhere, clearer start-screen
-  instruction, and board count no longer flickers during power-target
-  cool-down.
+  pause/play-knappen och statuspricken visar nu minerns riktiga läge istället för att gissa från hashrate.
